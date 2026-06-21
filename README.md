@@ -61,23 +61,23 @@ The dashboard is built using Python, Streamlit, and data analysis libraries, mak
 
 ### Dashboard Overview
 
-(Add screenshot here)
+<img src="screenshots/dashboard.png" width="100%">
 
 ### Analytics Page
 
-(Add screenshot here)
+<img src="screenshots/comparison.png" width="100%">
 
 ### Risk Assessment
 
-(Add screenshot here)
+<img src="screenshots/analytics.png" width="100%">
 
 ### Customer Comparison
 
-(Add screenshot here)
+<img src="screenshots/risk.png" width="100%">
 
 ### What-If Scenario Analysis
 
-(Add screenshot here)
+<img src="screenshots/scenario.png" width="100%">
 
 ---
 
