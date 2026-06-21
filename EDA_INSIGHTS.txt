@@ -1,0 +1,50 @@
+
+1. CLASS IMBALANCE - CRITICAL ISSUE:
+   • Default Rate: 21.8%
+   • Non-Default Rate: 78.2%
+   ➜ RECOMMENDATION: Use stratified sampling, weighted models, or SMOTE for balanced training
+
+2. LOAN GRADE STRONGLY PREDICTS DEFAULT:
+   • Grade F has highest default rate
+   • Grade A has lowest default rate
+   ➜ RECOMMENDATION: Stricter approval criteria for lower grades; higher interest rates for risk
+
+3. LOAN PURPOSE (INTENT) MATTERS:
+   • Certain loan intents have significantly higher default risk
+   ➜ RECOMMENDATION: Risk-adjusted pricing & approval thresholds by loan purpose
+
+4. PREVIOUS DEFAULT HISTORY IS STRONG INDICATOR:
+   • Customers with previous defaults show much higher current default risk
+   ➜ RECOMMENDATION: Implement stricter vetting for customers with default history
+
+5. LOAN-TO-INCOME RATIO IS CRITICAL:
+   • Higher loan % of income correlates with higher default risk
+   ➜ RECOMMENDATION: Cap loan-to-income ratio; adjust for borrower capability
+
+6. HOME OWNERSHIP STATUS INFLUENCES DEFAULT:
+   • Renters may show different default patterns than homeowners
+   ➜ RECOMMENDATION: Factor home ownership into risk assessment
+
+7. AGE & CREDIT HISTORY SHOW PATTERNS:
+   • Younger customers may have higher risk
+   • Longer credit history correlates with lower default
+   ➜ RECOMMENDATION: Require minimum credit history or co-signer for young borrowers
+
+8. INTEREST RATE CORRELATION:
+   • Higher interest rates suggest bank's own risk assessment
+   ➜ RECOMMENDATION: Ensure interest rates appropriately compensate for risk
+
+9. EMPLOYMENT LENGTH FACTOR:
+   • Stable employment correlates with repayment ability
+   ➜ RECOMMENDATION: Prioritize employed customers; verify employment stability
+
+10. PREDICTIVE MODEL OPPORTUNITY:
+    • Multiple strong predictors available → High-accuracy ML model feasible
+    ➜ RECOMMENDATION: Deploy classification model for real-time risk assessment
+                     Expected accuracy: 60-85% based on feature strength
+
+BUSINESS IMPACT:
+• Improved credit risk assessment reduces Non-Performing Assets (NPA)
+• Faster loan approval with automated ML-based decision making
+• Risk-adjusted pricing optimizes bank profitability
+• Targeted customer segments improve retention & satisfaction
